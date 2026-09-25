@@ -48,39 +48,62 @@
 				<name>main</name>
 				<description>main</description>
 			</description>
-			<fileName>main.xsl</fileName>
+			<fileName>main.lua</fileName>
 			<fileType>Rule</fileType>
-			<fileFormat>XSLT</fileFormat>
+			<fileFormat>LUA</fileFormat>
 			<ruleType>TopLevelTemplate</ruleType>
 		</ruleFile>
 		<ruleFile id="2">
 			<description>
-				<name>_Default_COMMON</name>
-				<description>_Default_COMMON</description>
+				<name>Default</name>
+			    <description>Default</description>
 			</description>
-			<fileName>_Default_COMMON.xsl</fileName>
+			<fileName>Default.lua</fileName>
 			<fileType>Rule</fileType>
-			<fileFormat>XSLT</fileFormat>
+			<fileFormat>lua</fileFormat>
 			<ruleType>SubTemplate</ruleType>
 		</ruleFile>
-		<ruleFile id="3">
+		 <ruleFile id="PortrayalModel">
 			<description>
-				<name>attributeRules</name>
-				<description>attributeRules</description>
+			   <name>PortrayalModel</name>
+			   <description>Portrayal Model</description>
+			   <language>eng</language>
 			</description>
-			<fileName>attributeRules.xsl</fileName>
+			<fileName>PortrayalModel.lua</fileName>
 			<fileType>Rule</fileType>
-			<fileFormat>XSLT</fileFormat>
+			<fileFormat>LUA</fileFormat>
+			<ruleType>SubTemplate</ruleType>
+		 </ruleFile>
+	    <ruleFile id="PortrayalAPI">
+			<description>
+			    <name>PortrayalAPI</name>
+			    <description>Portrayal API</description>
+			    <language>eng</language>
+			</description>
+			<fileName>PortrayalAPI.lua</fileName>
+			<fileType>Rule</fileType>
+			<fileFormat>LUA</fileFormat>
 			<ruleType>SubTemplate</ruleType>
 		</ruleFile>
+		 <ruleFile id="S100Scripting">
+			<description>
+			   <name>S100Scripting</name>
+			   <description>S100 Scripting</description>
+			   <language>eng</language>
+			</description>
+			<fileName>S100Scripting.lua</fileName>
+			<fileType>Rule</fileType>
+			<fileFormat>LUA</fileFormat>
+			<ruleType>SubTemplate</ruleType>
+		 </ruleFile>
 		<ruleFile id="4">
 			<description>
 				<name>IceAccretionWarning</name>
 				<description>IceAccretionWarning</description>
 			</description>
-			<fileName>IceAccretionWarning.xsl</fileName>
+			<fileName>IceAccretionWarning.lua</fileName>
 			<fileType>Rule</fileType>
-			<fileFormat>XSLT</fileFormat>
+			<fileFormat>LUA</fileFormat>
 			<ruleType>SubTemplate</ruleType>
 		</ruleFile>
 		<ruleFile id="5">
@@ -88,29 +111,9 @@
 				<name>RestrictedVisibilityWarning</name>
 				<description>RestrictedVisibilityWarning</description>
 			</description>
-			<fileName>RestrictedVisibilityWarning.xsl</fileName>
+			<fileName>RestrictedVisibilityWarning.lua</fileName>
 			<fileType>Rule</fileType>
-			<fileFormat>XSLT</fileFormat>
-			<ruleType>SubTemplate</ruleType>
-		</ruleFile>
-		<ruleFile id="6">
-			<description>
-				<name>simpleLineStyle</name>
-				<description>simpleLineStyle</description>
-			</description>
-			<fileName>simpleLineStyle.xsl</fileName>
-			<fileType>Rule</fileType>
-			<fileFormat>XSLT</fileFormat>
-			<ruleType>SubTemplate</ruleType>
-		</ruleFile>
-		<ruleFile id="7">
-			<description>
-				<name>textStyle</name>
-				<description>textStyle</description>
-			</description>
-			<fileName>textStyle.xsl</fileName>
-			<fileType>Rule</fileType>
-			<fileFormat>XSLT</fileFormat>
+			<fileFormat>LUA</fileFormat>
 			<ruleType>SubTemplate</ruleType>
 		</ruleFile>
 		<ruleFile id="8">
@@ -118,9 +121,9 @@
 				<name>ThunderstormWarning</name>
 				<description>ThunderstormWarning</description>
 			</description>
-			<fileName>ThunderstormWarning.xsl</fileName>
+			<fileName>ThunderstormWarning.lua</fileName>
 			<fileType>Rule</fileType>
-			<fileFormat>XSLT</fileFormat>
+			<fileFormat>LUA</fileFormat>
 			<ruleType>SubTemplate</ruleType>
 		</ruleFile>
 		<ruleFile id="9">
@@ -128,9 +131,9 @@
 				<name>SignificantWaveHeightWarning</name>
 				<description>SignificantWaveHeightWarning</description>
 			</description>
-			<fileName>SignificantWaveHeightWarning.xsl</fileName>
+			<fileName>SignificantWaveHeightWarning.lua</fileName>
 			<fileType>Rule</fileType>
-			<fileFormat>XSLT</fileFormat>
+			<fileFormat>LUA</fileFormat>
 			<ruleType>SubTemplate</ruleType>
 		</ruleFile>
 		<ruleFile id="10">
@@ -138,10 +141,21 @@
 				<name>WindWarning</name>
 				<description>WindWarning</description>
 			</description>
-			<fileName>WindWarning.xsl</fileName>
+			<fileName>WindWarning.lua</fileName>
 			<fileType>Rule</fileType>
-			<fileFormat>XSLT</fileFormat>
+			<fileFormat>LUA</fileFormat>
 			<ruleType>SubTemplate</ruleType>
+		</ruleFile>
+		<ruleFile id="DataCoverage.xsl">
+		  <description>
+			<name>DataCoverage</name>
+			<description>DataCoverage</description>
+			<language>en</language>
+		  </description>
+		  <fileName>DataCoverage.lua</fileName>
+		  <fileType>Rule</fileType>
+		  <fileFormat>lua</fileFormat>
+		  <ruleType>SubTemplate</ruleType>
 		</ruleFile>
 	</rules>
 </portrayalCatalog>
